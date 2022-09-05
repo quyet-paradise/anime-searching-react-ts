@@ -2,6 +2,8 @@ export type Anime = {
   mal_id: number
   rank: number
   title: string
+  airing?: boolean
+  synopsis?: string
   url: string
   image_url: string
   type: string
